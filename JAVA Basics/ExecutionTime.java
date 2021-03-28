@@ -1,4 +1,4 @@
-public class Time {
+public class ExecutionTime {
     public static long timeIt(Runnable code){
         long start = System.nanoTime();
         code.run();
